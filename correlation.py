@@ -27,7 +27,6 @@ VAR_NAMES = list(VARIABLES.keys())
 # ──────────────────────────────────────────────
 
 # divide data by left-right scale
-# change file name accordingly
 def divide_by_lr(input_csv, left_output, right_output):
     df = pd.read_csv(input_csv, encoding="utf-8", sep=",")
     left = df[df["lrscale"] < 5].copy()
@@ -134,11 +133,11 @@ def build_network(results_df, output_file, threshold):
 # ──────────────────────────────────────────────
 
 # PREPROCESSING
-#divide_by_lr("NetworkAnalysis/finlandSubset.csv", "fin_left_group.csv", "fin_right_group.csv")
-df = preprocess("fin_left_group.csv")
+#divide_by_lr("finlandSubset.csv", "fin_left_group.csv", "fin_right_group.csv")
+#df = preprocess("fin_left_group.csv")
 
 # COMPUTING
-corr_matrix, results_df = compute_correlations(df, VAR_NAMES)
+#corr_matrix, results_df = compute_correlations(df, VAR_NAMES)
 
 # BUILDING NETWORK
-build_network(results_df, "fin_left_correlation_network.gexf", threshold=0.01)
+#build_network(results_df, "fin_left_correlation_network.gexf", threshold=0.01)
