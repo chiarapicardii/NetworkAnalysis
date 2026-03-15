@@ -16,42 +16,22 @@ VARIABLES = {
     "trstlgl": "Trust in Legal System",
     "ccrdprs": "Personal Responsibility (Climate)",
     "imwbcnt": "Immigrants: Country Better/Worse",
-    #"lrscale": "Left-Right Scale",
+    "lrscale": "Left-Right Scale",
     "gincdif": "Gov. Reduce Income Differences",
-    #"aesfdrk": "Safety Walking Alone After Dark",
+    "rlgdgr": "Degree of Religiousness",
 }
 VAR_NAMES = list(VARIABLES.keys())
-
-# ──────────────────────────────────────────────
-# Preprocessing
-# ──────────────────────────────────────────────
-
-# divide data by left-right scale
-def divide_by_lr(input_csv, left_output, right_output):
-    df = pd.read_csv(input_csv, encoding="utf-8", sep=",")
-    left = df[df["lrscale"] < 5].copy()
-    right = df[df["lrscale"] > 5].copy()
-    left.to_csv(left_output, index=False)
-    right.to_csv(right_output, index=False)
-    print(f"left and right data saved")
-
-# Preprocess the data to make the direction of agreement consistent across variables
-    # for "gincdif" ( originally 1 = Agree strongly, 5 = Disagree strongly -> transformed to 0 = Agree strongly, 10 = Disagree strongly ), 
-    # we reverse the scale:
-    # 1(Agree strongly) → 10
-    # 5(Disagree strongly) → 0
-    # This makes the direction of agreement consistent across variables
-def preprocess(input_csv):
-    df = pd.read_csv(input_csv, encoding="utf-8", sep=",")
-    df["gincdif_r"] = 10 - df["gincdif"]
-    return df
 
 # ──────────────────────────────────────────────
 # Compute edges: correlation coefficient
 # ──────────────────────────────────────────────
 # Compute pairwise correlations between variables with Pearson Correlation method
 
-def compute_correlations(df, variables):
+def compute_correlations(cleaned_data_csv, variables):
+    # read cleaned csv file
+    df = pd.read_csv(cleaned_data_csv, encoding='utf-8', sep=',')
+
+    # initialize correlation matrix
     n = len(variables)
     corr_matrix = pd.DataFrame(np.zeros((n, n)), index=variables, columns=variables)
 
@@ -98,17 +78,16 @@ def build_network(results_df, output_file, threshold):
     print(f"Number of edges with |r| >= {threshold}: {len(filtered)}")
 
     for _, row in filtered.iterrows():
-        color = "0000FF" if row["sign"] == "positive" else "FF0000"
         G.add_edge(
             row["var1"], row["var2"],
             weight=float(row["abs_r"]),
             r=float(row["r"]),
-            sign=row["sign"],
-            color=color,
+            sign=row["sign"]
         )
-    
 
-    # ── compute weight degree and Betweenness Centrality 
+    # ── compute weight degree and Betweenness Centrality
+    # weight degree is the sum of the weights of the edges connected to a node
+    # betweenness centrality is computed based on the weighted shortest path, where the distance is defined as the inverse of the weight 
     for u, v, d in G.edges(data=True):
         d["distance"] = 1.0 / d["weight"] if d["weight"] > 0 else 1e6
 
@@ -132,12 +111,8 @@ def build_network(results_df, output_file, threshold):
 # implementation
 # ──────────────────────────────────────────────
 
-# PREPROCESSING
-#divide_by_lr("finlandSubset.csv", "fin_left_group.csv", "fin_right_group.csv")
-#df = preprocess("fin_left_group.csv")
-
 # COMPUTING
-#corr_matrix, results_df = compute_correlations(df, VAR_NAMES)
+corr_matrix, results_df = compute_correlations('data/it_cleaned_data.csv', VAR_NAMES)
 
 # BUILDING NETWORK
-#build_network(results_df, "fin_left_correlation_network.gexf", threshold=0.01)
+build_network(results_df, 'network/it_correlation_network.gexf', threshold=0.01)
