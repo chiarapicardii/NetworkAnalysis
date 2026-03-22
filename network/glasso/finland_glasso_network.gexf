@@ -1,0 +1,374 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-03-22">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="3" title="r" type="double" />
+      <attribute id="4" title="sign" type="string" />
+      <attribute id="5" title="color" type="string" />
+      <attribute id="6" title="distance" type="double" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="betweenness_centrality" type="double" />
+      <attribute id="1" title="weighted_degree" type="double" />
+      <attribute id="2" title="degree" type="long" />
+    </attributes>
+    <nodes>
+      <node id="trstplt" label="Trust in Politicians">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="0.6878" />
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </node>
+      <node id="trstplc" label="Trust in Police">
+        <attvalues>
+          <attvalue for="0" value="0.321429" />
+          <attvalue for="1" value="0.6213" />
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </node>
+      <node id="trstsci" label="Trust in Scientists">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="0.6489" />
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </node>
+      <node id="trstlgl" label="Trust in Legal System">
+        <attvalues>
+          <attvalue for="0" value="0.357143" />
+          <attvalue for="1" value="1.011" />
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </node>
+      <node id="ccrdprs" label="Personal Responsibility (Climate)">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="0.3076" />
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </node>
+      <node id="imwbcnt" label="Immigrants: Country Better/Worse">
+        <attvalues>
+          <attvalue for="0" value="0.214286" />
+          <attvalue for="1" value="0.5178" />
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </node>
+      <node id="lrscale" label="Left-Right Scale">
+        <attvalues>
+          <attvalue for="0" value="0.464286" />
+          <attvalue for="1" value="0.5092" />
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </node>
+      <node id="gincdif" label="Gov. Reduce Income Differences">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="0.2535" />
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </node>
+      <node id="rlgdgr" label="How Religious Are You">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="0.1227" />
+          <attvalue for="2" value="8" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="trstplt" target="trstplc" id="0" weight="0.026">
+        <attvalues>
+          <attvalue for="3" value="0.026" />
+          <attvalue for="4" value="positive" />
+          <attvalue for="5" value="0000FF" />
+          <attvalue for="6" value="38.46153846153846" />
+        </attvalues>
+      </edge>
+      <edge source="trstplt" target="trstsci" id="1" weight="0.1833">
+        <attvalues>
+          <attvalue for="3" value="0.1833" />
+          <attvalue for="4" value="positive" />
+          <attvalue for="5" value="0000FF" />
+          <attvalue for="6" value="5.455537370430988" />
+        </attvalues>
+      </edge>
+      <edge source="trstplt" target="trstlgl" id="2" weight="0.3166">
+        <attvalues>
+          <attvalue for="3" value="0.3166" />
+          <attvalue for="4" value="positive" />
+          <attvalue for="5" value="0000FF" />
+          <attvalue for="6" value="3.158559696778269" />
+        </attvalues>
+      </edge>
+      <edge source="trstplt" target="ccrdprs" id="3" weight="0.0513">
+        <attvalues>
+          <attvalue for="3" value="0.0513" />
+          <attvalue for="4" value="positive" />
+          <attvalue for="5" value="0000FF" />
+          <attvalue for="6" value="19.49317738791423" />
+        </attvalues>
+      </edge>
+      <edge source="trstplt" target="imwbcnt" id="4" weight="0.1106">
+        <attvalues>
+          <attvalue for="3" value="0.1106" />
+          <attvalue for="4" value="positive" />
+          <attvalue for="5" value="0000FF" />
+          <attvalue for="6" value="9.041591320072332" />
+        </attvalues>
+      </edge>
+      <edge source="trstplt" target="lrscale" id="5" weight="0.0">
+        <attvalues>
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="zero" />
+          <attvalue for="5" value="FF0000" />
+          <attvalue for="6" value="1000000.0" />
+        </attvalues>
+      </edge>
+      <edge source="trstplt" target="gincdif" id="6" weight="0.0">
+        <attvalues>
+          <attvalue for="3" value="-0.0" />
+          <attvalue for="4" value="zero" />
+          <attvalue for="5" value="FF0000" />
+          <attvalue for="6" value="1000000.0" />
+        </attvalues>
+      </edge>
+      <edge source="trstplt" target="rlgdgr" id="7" weight="0.0">
+        <attvalues>
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="zero" />
+          <attvalue for="5" value="FF0000" />
+          <attvalue for="6" value="1000000.0" />
+        </attvalues>
+      </edge>
+      <edge source="trstplc" target="trstsci" id="8" weight="0.1218">
+        <attvalues>
+          <attvalue for="3" value="0.1218" />
+          <attvalue for="4" value="positive" />
+          <attvalue for="5" value="0000FF" />
+          <attvalue for="6" value="8.210180623973727" />
+        </attvalues>
+      </edge>
+      <edge source="trstplc" target="trstlgl" id="9" weight="0.3799">
+        <attvalues>
+          <attvalue for="3" value="0.3799" />
+          <attvalue for="4" value="positive" />
+          <attvalue for="5" value="0000FF" />
+          <attvalue for="6" value="2.632271650434325" />
+        </attvalues>
+      </edge>
+      <edge source="trstplc" target="ccrdprs" id="10" weight="0.0">
+        <attvalues>
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="zero" />
+          <attvalue for="5" value="FF0000" />
+          <attvalue for="6" value="1000000.0" />
+        </attvalues>
+      </edge>
+      <edge source="trstplc" target="imwbcnt" id="11" weight="0.0">
+        <attvalues>
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="zero" />
+          <attvalue for="5" value="FF0000" />
+          <attvalue for="6" value="1000000.0" />
+        </attvalues>
+      </edge>
+      <edge source="trstplc" target="lrscale" id="12" weight="0.0874">
+        <attvalues>
+          <attvalue for="3" value="0.0874" />
+          <attvalue for="4" value="positive" />
+          <attvalue for="5" value="0000FF" />
+          <attvalue for="6" value="11.441647597254004" />
+        </attvalues>
+      </edge>
+      <edge source="trstplc" target="gincdif" id="13" weight="0.0">
+        <attvalues>
+          <attvalue for="3" value="-0.0" />
+          <attvalue for="4" value="zero" />
+          <attvalue for="5" value="FF0000" />
+          <attvalue for="6" value="1000000.0" />
+        </attvalues>
+      </edge>
+      <edge source="trstplc" target="rlgdgr" id="14" weight="0.0062">
+        <attvalues>
+          <attvalue for="3" value="0.0062" />
+          <attvalue for="4" value="positive" />
+          <attvalue for="5" value="0000FF" />
+          <attvalue for="6" value="161.29032258064515" />
+        </attvalues>
+      </edge>
+      <edge source="trstsci" target="trstlgl" id="15" weight="0.1933">
+        <attvalues>
+          <attvalue for="3" value="0.1933" />
+          <attvalue for="4" value="positive" />
+          <attvalue for="5" value="0000FF" />
+          <attvalue for="6" value="5.173305742369374" />
+        </attvalues>
+      </edge>
+      <edge source="trstsci" target="ccrdprs" id="16" weight="0.0664">
+        <attvalues>
+          <attvalue for="3" value="0.0664" />
+          <attvalue for="4" value="positive" />
+          <attvalue for="5" value="0000FF" />
+          <attvalue for="6" value="15.06024096385542" />
+        </attvalues>
+      </edge>
+      <edge source="trstsci" target="imwbcnt" id="17" weight="0.0841">
+        <attvalues>
+          <attvalue for="3" value="0.0841" />
+          <attvalue for="4" value="positive" />
+          <attvalue for="5" value="0000FF" />
+          <attvalue for="6" value="11.890606420927469" />
+        </attvalues>
+      </edge>
+      <edge source="trstsci" target="lrscale" id="18" weight="0.0">
+        <attvalues>
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="zero" />
+          <attvalue for="5" value="FF0000" />
+          <attvalue for="6" value="1000000.0" />
+        </attvalues>
+      </edge>
+      <edge source="trstsci" target="gincdif" id="19" weight="0.0">
+        <attvalues>
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="zero" />
+          <attvalue for="5" value="FF0000" />
+          <attvalue for="6" value="1000000.0" />
+        </attvalues>
+      </edge>
+      <edge source="trstsci" target="rlgdgr" id="20" weight="0.0">
+        <attvalues>
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="zero" />
+          <attvalue for="5" value="FF0000" />
+          <attvalue for="6" value="1000000.0" />
+        </attvalues>
+      </edge>
+      <edge source="trstlgl" target="ccrdprs" id="21" weight="0.0199">
+        <attvalues>
+          <attvalue for="3" value="0.0199" />
+          <attvalue for="4" value="positive" />
+          <attvalue for="5" value="0000FF" />
+          <attvalue for="6" value="50.25125628140703" />
+        </attvalues>
+      </edge>
+      <edge source="trstlgl" target="imwbcnt" id="22" weight="0.0875">
+        <attvalues>
+          <attvalue for="3" value="0.0875" />
+          <attvalue for="4" value="positive" />
+          <attvalue for="5" value="0000FF" />
+          <attvalue for="6" value="11.428571428571429" />
+        </attvalues>
+      </edge>
+      <edge source="trstlgl" target="lrscale" id="23" weight="0.0">
+        <attvalues>
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="zero" />
+          <attvalue for="5" value="FF0000" />
+          <attvalue for="6" value="1000000.0" />
+        </attvalues>
+      </edge>
+      <edge source="trstlgl" target="gincdif" id="24" weight="0.0138">
+        <attvalues>
+          <attvalue for="3" value="-0.0138" />
+          <attvalue for="4" value="negative" />
+          <attvalue for="5" value="FF0000" />
+          <attvalue for="6" value="72.46376811594203" />
+        </attvalues>
+      </edge>
+      <edge source="trstlgl" target="rlgdgr" id="25" weight="0.0">
+        <attvalues>
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="zero" />
+          <attvalue for="5" value="FF0000" />
+          <attvalue for="6" value="1000000.0" />
+        </attvalues>
+      </edge>
+      <edge source="ccrdprs" target="imwbcnt" id="26" weight="0.17">
+        <attvalues>
+          <attvalue for="3" value="0.17" />
+          <attvalue for="4" value="positive" />
+          <attvalue for="5" value="0000FF" />
+          <attvalue for="6" value="5.88235294117647" />
+        </attvalues>
+      </edge>
+      <edge source="ccrdprs" target="lrscale" id="27" weight="0.0">
+        <attvalues>
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="zero" />
+          <attvalue for="5" value="FF0000" />
+          <attvalue for="6" value="1000000.0" />
+        </attvalues>
+      </edge>
+      <edge source="ccrdprs" target="gincdif" id="28" weight="0.0">
+        <attvalues>
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="zero" />
+          <attvalue for="5" value="FF0000" />
+          <attvalue for="6" value="1000000.0" />
+        </attvalues>
+      </edge>
+      <edge source="ccrdprs" target="rlgdgr" id="29" weight="0.0">
+        <attvalues>
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="zero" />
+          <attvalue for="5" value="FF0000" />
+          <attvalue for="6" value="1000000.0" />
+        </attvalues>
+      </edge>
+      <edge source="imwbcnt" target="lrscale" id="30" weight="0.0656">
+        <attvalues>
+          <attvalue for="3" value="-0.0656" />
+          <attvalue for="4" value="negative" />
+          <attvalue for="5" value="FF0000" />
+          <attvalue for="6" value="15.243902439024389" />
+        </attvalues>
+      </edge>
+      <edge source="imwbcnt" target="gincdif" id="31" weight="0.0">
+        <attvalues>
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="zero" />
+          <attvalue for="5" value="FF0000" />
+          <attvalue for="6" value="1000000.0" />
+        </attvalues>
+      </edge>
+      <edge source="imwbcnt" target="rlgdgr" id="32" weight="0.0">
+        <attvalues>
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="zero" />
+          <attvalue for="5" value="FF0000" />
+          <attvalue for="6" value="1000000.0" />
+        </attvalues>
+      </edge>
+      <edge source="lrscale" target="gincdif" id="33" weight="0.2397">
+        <attvalues>
+          <attvalue for="3" value="-0.2397" />
+          <attvalue for="4" value="negative" />
+          <attvalue for="5" value="FF0000" />
+          <attvalue for="6" value="4.171881518564873" />
+        </attvalues>
+      </edge>
+      <edge source="lrscale" target="rlgdgr" id="34" weight="0.1165">
+        <attvalues>
+          <attvalue for="3" value="0.1165" />
+          <attvalue for="4" value="positive" />
+          <attvalue for="5" value="0000FF" />
+          <attvalue for="6" value="8.583690987124463" />
+        </attvalues>
+      </edge>
+      <edge source="gincdif" target="rlgdgr" id="35" weight="0.0">
+        <attvalues>
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="zero" />
+          <attvalue for="5" value="FF0000" />
+          <attvalue for="6" value="1000000.0" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
