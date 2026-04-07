@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?><graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="r" attr.type="int" for="node" id="r"/>
+    <key attr.name="g" attr.type="int" for="node" id="g"/>
+    <key attr.name="b" attr.type="int" for="node" id="b"/>
+    <key attr.name="x" attr.type="float" for="node" id="x"/>
+    <key attr.name="y" attr.type="float" for="node" id="y"/>
+    <key attr.name="size" attr.type="float" for="node" id="size"/>
+    <key attr.name="name" attr.type="string" for="node" id="v_name"/>
+    <key attr.name="degree" attr.type="double" for="node" id="v_degree"/>
+    <key attr.name="weighted_degree" attr.type="double" for="node" id="v_weighted_degree"/>
+    <key attr.name="betweenness" attr.type="double" for="node" id="v_betweenness"/>
+    <key attr.name="closeness" attr.type="double" for="node" id="v_closeness"/>
+    <key attr.name="eigenvector" attr.type="double" for="node" id="v_eigenvector"/>
+    <key attr.name="modularity_class" attr.type="double" for="node" id="v_modularity_class"/>
+    <key attr.name="clustering_coefficient" attr.type="double" for="node" id="v_clustering_coefficient"/>
+    <key attr.name="Label" attr.type="string" for="node" id="v_label"/>
+    <key attr.name="sign" attr.type="string" for="edge" id="e_sign"/>
+    <graph edgedefault="undirected">
+        <node id="n0">
+            <data key="label">Trust in Legal System</data>
+            <data key="v_name">trstlgl</data>
+            <data key="v_degree">5.0</data>
+            <data key="v_weighted_degree">0.982494590123664</data>
+            <data key="v_betweenness">3.0</data>
+            <data key="v_closeness">2.52883349018292</data>
+            <data key="v_eigenvector">1.0</data>
+            <data key="v_modularity_class">1.0</data>
+            <data key="v_clustering_coefficient">0.8</data>
+            <data key="v_label">Trust in Legal System</data>
+            <data key="size">25.0</data>
+            <data key="r">210</data>
+            <data key="g">124</data>
+            <data key="b">206</data>
+            <data key="x">-355.81802</data>
+            <data key="y">-81.89604</data>
+        </node>
+        <node id="n1">
+            <data key="label">Trust in Police</data>
+            <data key="v_name">trstplc</data>
+            <data key="v_degree">5.0</data>
+            <data key="v_weighted_degree">0.845055646477808</data>
+            <data key="v_betweenness">0.0</data>
+            <data key="v_closeness">2.1053962850951</data>
+            <data key="v_eigenvector">0.902737431966711</data>
+            <data key="v_modularity_class">1.0</data>
+            <data key="v_clustering_coefficient">0.7</data>
+            <data key="v_label">Trust in Police</data>
+            <data key="size">10.0</data>
+            <data key="r">104</data>
+            <data key="g">173</data>
+            <data key="b">54</data>
+            <data key="x">158.35854</data>
+            <data key="y">-328.0418</data>
+        </node>
+        <node id="n2">
+            <data key="label">Trust in Politicians</data>
+            <data key="v_name">trstplt</data>
+            <data key="v_degree">6.0</data>
+            <data key="v_weighted_degree">0.861382276453259</data>
+            <data key="v_betweenness">4.0</data>
+            <data key="v_closeness">2.53229796596314</data>
+            <data key="v_eigenvector">0.81054693714409</data>
+            <data key="v_modularity_class">1.0</data>
+            <data key="v_clustering_coefficient">0.733333333333333</data>
+            <data key="v_label">Trust in Politicians</data>
+            <data key="size">30.0</data>
+            <data key="r">255</data>
+            <data key="g">116</data>
+            <data key="b">62</data>
+            <data key="x">354.94574</data>
+            <data key="y">-81.04954</data>
+        </node>
+        <node id="n3">
+            <data key="label">Personal Responsibility (Climate)</data>
+            <data key="v_name">ccrdprs</data>
+            <data key="v_degree">7.0</data>
+            <data key="v_weighted_degree">0.666859032151945</data>
+            <data key="v_betweenness">4.0</data>
+            <data key="v_closeness">2.52763549171392</data>
+            <data key="v_eigenvector">0.401935324043009</data>
+            <data key="v_modularity_class">2.0</data>
+            <data key="v_clustering_coefficient">0.714285714285714</data>
+            <data key="v_label">Personal Responsibility (Climate)</data>
+            <data key="size">30.0</data>
+            <data key="r">0</data>
+            <data key="g">183</data>
+            <data key="b">218</data>
+            <data key="x">-284.74258</data>
+            <data key="y">226.81412</data>
+        </node>
+        <node id="n4">
+            <data key="label">Gov. Reduce Income Differences</data>
+            <data key="v_name">gincdif</data>
+            <data key="v_degree">5.0</data>
+            <data key="v_weighted_degree">0.451756449687243</data>
+            <data key="v_betweenness">0.0</data>
+            <data key="v_closeness">2.1477513707418</data>
+            <data key="v_eigenvector">0.193020411697482</data>
+            <data key="v_modularity_class">2.0</data>
+            <data key="v_clustering_coefficient">0.7</data>
+            <data key="v_label">Gov. Reduce Income Differences</data>
+            <data key="size">10.0</data>
+            <data key="r">104</data>
+            <data key="g">173</data>
+            <data key="b">54</data>
+            <data key="x">285.21448</data>
+            <data key="y">227.23692</data>
+        </node>
+        <node id="n5">
+            <data key="label">Left-Right Scale</data>
+            <data key="v_name">lrscale</data>
+            <data key="v_degree">5.0</data>
+            <data key="v_weighted_degree">0.390684054773013</data>
+            <data key="v_betweenness">6.0</data>
+            <data key="v_closeness">2.57016728431148</data>
+            <data key="v_eigenvector">0.172454401268119</data>
+            <data key="v_modularity_class">2.0</data>
+            <data key="v_clustering_coefficient">0.8</data>
+            <data key="v_label">Left-Right Scale</data>
+            <data key="size">40.0</data>
+            <data key="r">210</data>
+            <data key="g">124</data>
+            <data key="b">206</data>
+            <data key="x">-157.72826</data>
+            <data key="y">-328.7049</data>
+        </node>
+        <node id="n6">
+            <data key="label">Immigrants: Country Better/Worse</data>
+            <data key="v_name">imwbcnt</data>
+            <data key="v_degree">6.0</data>
+            <data key="v_weighted_degree">0.837082193540241</data>
+            <data key="v_betweenness">0.0</data>
+            <data key="v_closeness">1.43624517319734</data>
+            <data key="v_eigenvector">0.517848966550425</data>
+            <data key="v_modularity_class">2.0</data>
+            <data key="v_clustering_coefficient">0.733333333333333</data>
+            <data key="v_label">Immigrants: Country Better/Worse</data>
+            <data key="size">10.0</data>
+            <data key="r">255</data>
+            <data key="g">116</data>
+            <data key="b">62</data>
+            <data key="x">-0.5069294</data>
+            <data key="y">0.503091</data>
+        </node>
+        <node id="n7">
+            <data key="label">Degree of Religiousness</data>
+            <data key="v_name">rlgdgr</data>
+            <data key="v_degree">5.0</data>
+            <data key="v_weighted_degree">0.357550663368439</data>
+            <data key="v_betweenness">4.0</data>
+            <data key="v_closeness">2.34474748477355</data>
+            <data key="v_eigenvector">0.241328313155596</data>
+            <data key="v_modularity_class">2.0</data>
+            <data key="v_clustering_coefficient">0.8</data>
+            <data key="v_label">Degree of Religiousness</data>
+            <data key="size">30.0</data>
+            <data key="r">210</data>
+            <data key="g">124</data>
+            <data key="b">206</data>
+            <data key="x">0.27698755</data>
+            <data key="y">365.13806</data>
+        </node>
+        <edge id="24" source="n0" target="n1">
+            <data key="weight">0.5304365754127502</data>
+            <data key="e_sign">positive</data>
+        </edge>
+        <edge id="25" source="n0" target="n2">
+            <data key="weight">0.32352346181869507</data>
+            <data key="e_sign">positive</data>
+        </edge>
+        <edge id="26" source="n0" target="n3">
+            <data key="weight">0.01676909811794758</data>
+            <data key="e_sign">negative</data>
+        </edge>
+        <edge id="27" source="n0" target="n5">
+            <data key="weight">0.02056235820055008</data>
+            <data key="e_sign">positive</data>
+        </edge>
+        <edge id="28" source="n0" target="n6">
+            <data key="weight">0.09120307862758636</data>
+            <data key="e_sign">positive</data>
+        </edge>
+        <edge id="29" source="n1" target="n2">
+            <data key="weight">0.18819336593151093</data>
+            <data key="e_sign">positive</data>
+        </edge>
+        <edge id="30" source="n1" target="n3">
+            <data key="weight">0.055088166147470474</data>
+            <data key="e_sign">negative</data>
+        </edge>
+        <edge id="31" source="n1" target="n4">
+            <data key="weight">0.029298407956957817</data>
+            <data key="e_sign">positive</data>
+        </edge>
+        <edge id="32" source="n1" target="n7">
+            <data key="weight">0.04203912243247032</data>
+            <data key="e_sign">negative</data>
+        </edge>
+        <edge id="33" source="n2" target="n3">
+            <data key="weight">0.08360704034566879</data>
+            <data key="e_sign">positive</data>
+        </edge>
+        <edge id="34" source="n2" target="n5">
+            <data key="weight">0.002909251721575856</data>
+            <data key="e_sign">positive</data>
+        </edge>
+        <edge id="35" source="n2" target="n6">
+            <data key="weight">0.20349854230880737</data>
+            <data key="e_sign">positive</data>
+        </edge>
+        <edge id="36" source="n2" target="n7">
+            <data key="weight">0.05965059995651245</data>
+            <data key="e_sign">positive</data>
+        </edge>
+        <edge id="37" source="n3" target="n4">
+            <data key="weight">0.07168452441692352</data>
+            <data key="e_sign">negative</data>
+        </edge>
+        <edge id="38" source="n3" target="n5">
+            <data key="weight">0.026214532554149628</data>
+            <data key="e_sign">positive</data>
+        </edge>
+        <edge id="39" source="n3" target="n6">
+            <data key="weight">0.2479737102985382</data>
+            <data key="e_sign">positive</data>
+        </edge>
+        <edge id="40" source="n3" target="n7">
+            <data key="weight">0.16552194952964783</data>
+            <data key="e_sign">positive</data>
+        </edge>
+        <edge id="41" source="n4" target="n5">
+            <data key="weight">0.22264602780342102</data>
+            <data key="e_sign">negative</data>
+        </edge>
+        <edge id="42" source="n4" target="n6">
+            <data key="weight">0.1069217398762703</data>
+            <data key="e_sign">negative</data>
+        </edge>
+        <edge id="43" source="n4" target="n7">
+            <data key="weight">0.021205749362707138</data>
+            <data key="e_sign">positive</data>
+        </edge>
+        <edge id="44" source="n5" target="n6">
+            <data key="weight">0.11835188418626785</data>
+            <data key="e_sign">positive</data>
+        </edge>
+        <edge id="45" source="n6" target="n7">
+            <data key="weight">0.0691332295536995</data>
+            <data key="e_sign">positive</data>
+        </edge>
+    </graph>
+</graphml>
