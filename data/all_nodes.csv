@@ -1,0 +1,71 @@
+﻿country,id,label,interval,name,degree,weighted_degree,betweenness,closeness,eigenvector,modularityclass,clusteringcoefficient,
+italy,n0,Trust in Legal System,,trstlgl,6,1.251510893,0,1.422164738,1,1,0.8,Trust in Legal System
+italy,n1,Trust in Police,,trstplc,7,1.146517671,0,1.832173144,0.868343401,2,0.714285714,Trust in Police
+italy,n2,Trust in Politicians,,trstplt,6,0.830883612,0,1.771123203,0.722250557,1,0.866666667,Trust in Politicians
+italy,n3,Trust in Scientists,,trstsci,5,0.674894413,0,1.370810429,0.574538519,2,0.8,Trust in Scientists
+italy,n4,Personal Responsibility (Climate),,ccrdprs,7,0.562867928,7,2.552047496,0.322350833,3,0.761904762,Personal Responsibility (Climate)
+italy,n5,Gov. Reduce Income Differences,,gincdif,7,0.519575274,3,2.658185573,0.307928299,3,0.714285714,Gov. Reduce Income Differences
+italy,n6,Left-Right Scale,,lrscale,7,0.763345679,0,1.753347612,0.546909942,1,0.80952381,Left-Right Scale
+italy,n7,Immigrants: Country Better/Worse,,imwbcnt,8,0.637112765,11,2.924703928,0.447152427,1,0.75,Immigrants: Country Better/Worse
+italy,n8,Degree of Religiousness,,rlgdgr,5,0.284688039,8,2.81539733,0.216325872,2,0.9,Degree of Religiousness
+greece,n0,Trust in Legal System,,trstlgl,4,1.07975279,0,1.663384442,0.976531782,1,1,Trust in Legal System
+greece,n1,Trust in Police,,trstplc,8,1.265770302,0,2.671740284,1,1,0.714285714,Trust in Police
+greece,n2,Trust in Politicians,,trstplt,6,0.659048345,0,3.038221305,0.40970179,2,0.866666667,Trust in Politicians
+greece,n3,Trust in Scientists,,trstsci,7,0.683280872,16,3.998552974,0.636041114,1,0.80952381,Trust in Scientists
+greece,n4,Personal Responsibility (Climate),,ccrdprs,7,0.490661564,8,3.314837938,0.307563107,2,0.80952381,Personal Responsibility (Climate)
+greece,n5,Gov. Reduce Income Differences,,gincdif,5,0.327277113,2,2.907464679,0.167582183,2,1,Gov. Reduce Income Differences
+greece,n6,Left-Right Scale,,lrscale,7,0.701426693,8,3.736475284,0.322273611,2,0.80952381,Left-Right Scale
+greece,n7,Immigrants: Country Better/Worse,,imwbcnt,8,0.806469917,10,3.607067513,0.324777888,2,0.714285714,Immigrants: Country Better/Worse
+greece,n8,Degree of Religiousness,,rlgdgr,4,0.49734235,0,1.765287581,0.260333849,2,1,Degree of Religiousness
+netherlands,n0,Trust in Legal System,,trstlgl,6,1.061926185,0,2.447465721,1,1,0.866666667,Trust in Legal System
+netherlands,n1,Trust in Police,,trstplc,5,0.677205281,5,2.507456744,0.748439143,1,0.7,Trust in Police
+netherlands,n2,Trust in Politicians,,trstplt,6,0.77887776,0,1.957654127,0.799515134,1,0.866666667,Trust in Politicians
+netherlands,n3,Trust in Scientists,,trstsci,7,0.799163589,1,1.957936983,0.754985337,1,0.761904762,Trust in Scientists
+netherlands,n4,Personal Responsibility (Climate),,ccrdprs,8,0.522983042,10,2.861617405,0.343926874,2,0.678571429,Personal Responsibility (Climate)
+netherlands,n5,Gov. Reduce Income Differences,,gincdif,4,0.477832098,0,1.416382754,0.226081667,2,0.666666667,Gov. Reduce Income Differences
+netherlands,n6,Left-Right Scale,,lrscale,5,0.640057213,5,2.112572128,0.26668593,2,0.8,Left-Right Scale
+netherlands,n7,Immigrants: Country Better/Worse,,imwbcnt,7,0.598696011,1,2.556525369,0.417929792,2,0.714285714,Immigrants: Country Better/Worse
+netherlands,n8,Degree of Religiousness,,rlgdgr,6,0.268775189,17,3.161410323,0.233094188,1,0.866666667,Degree of Religiousness
+finland,n0,Trust in Legal System,,trstlgl,6,1.160791918,0,1.334157743,1,1,0.666666667,Trust in Legal System
+finland,n1,Trust in Police,,trstplc,6,0.810288515,6,2.075999295,0.782864375,1,0.733333333,Trust in Police
+finland,n2,Trust in Politicians,,trstplt,7,0.786023179,18,2.499743971,0.733184667,1,0.666666667,Trust in Politicians
+finland,n3,Trust in Scientists,,trstsci,6,0.750095223,0,1.793849418,0.678052016,1,0.8,Trust in Scientists
+finland,n4,Personal Responsibility (Climate),,ccrdprs,5,0.40413984,11,1.700308556,0.314988201,2,0.7,Personal Responsibility (Climate)
+finland,n5,Gov. Reduce Income Differences,,gincdif,4,0.50419674,0,1.393362823,0.270726034,3,0.333333333,Gov. Reduce Income Differences
+finland,n6,Left-Right Scale,,lrscale,6,0.805933673,4,2.321069416,0.396493787,3,0.6,Left-Right Scale
+finland,n7,Immigrants: Country Better/Worse,,imwbcnt,6,0.72699786,0,1.382210064,0.540520448,2,0.8,Immigrants: Country Better/Worse
+finland,n8,Degree of Religiousness,,rlgdgr,4,0.384285158,0,1.791067054,0.206860505,3,0.666666667,Degree of Religiousness
+gb,n0,Trust in Legal System,,trstlgl,4,1.026311746,0,0.73341391,1,1,0.833333333,Trust in Legal System
+gb,n1,Trust in Police,,trstplc,6,0.862103619,2,1.688061036,0.880008914,1,0.733333333,Trust in Police
+gb,n2,Trust in Politicians,,trstplt,8,0.875431712,14,1.868728165,0.770876153,1,0.642857143,Trust in Politicians
+gb,n3,Trust in Scientists,,trstsci,7,0.781737626,5,1.600978961,0.666276363,1,0.714285714,Trust in Scientists
+gb,n4,Personal Responsibility (Climate),,ccrdprs,6,0.431136749,7,1.840853184,0.309214566,2,0.666666667,Personal Responsibility (Climate)
+gb,n5,Gov. Reduce Income Differences,,gincdif,4,0.343776515,0,1.646998163,0.215939405,2,0.833333333,Gov. Reduce Income Differences
+gb,n6,Left-Right Scale,,lrscale,6,0.806786113,3,1.549525501,0.516335996,2,0.666666667,Left-Right Scale
+gb,n7,Immigrants: Country Better/Worse,,imwbcnt,6,0.829680572,4,1.504268,0.583440753,2,0.666666667,Immigrants: Country Better/Worse
+gb,n8,Degree of Religiousness,,rlgdgr,5,0.347260808,0,1.417336268,0.289146198,1,0.9,Degree of Religiousness
+hungary,n0,Trust in Legal System,,trstlgl,6,1.188174414,0,3.487156812,1,1,0.8,Trust in Legal System
+hungary,n1,Trust in Police,,trstplc,5,0.893646658,8,4.361181995,0.850160663,1,0.9,Trust in Police
+hungary,n2,Trust in Politicians,,trstplt,8,1.010305396,0,2.079793315,0.705370772,2,0.642857143,Trust in Politicians
+hungary,n3,Trust in Scientists,,trstsci,7,0.559073001,7,3.362119485,0.475937389,1,0.666666667,Trust in Scientists
+hungary,n4,Personal Responsibility (Climate),,ccrdprs,3,0.1878967,0,2.192117345,0.096555762,2,1,Personal Responsibility (Climate)
+hungary,n5,Gov. Reduce Income Differences,,gincdif,5,0.399923052,0,2.994266049,0.212018905,2,0.8,Gov. Reduce Income Differences
+hungary,n6,Left-Right Scale,,lrscale,5,0.500065373,0,2.907423503,0.345646059,2,0.8,Left-Right Scale
+hungary,n7,Immigrants: Country Better/Worse,,imwbcnt,7,0.467590585,6,4.320724857,0.192193623,2,0.619047619,Immigrants: Country Better/Worse
+hungary,n8,Degree of Religiousness,,rlgdgr,6,0.177928472,11,4.190552295,0.131780451,2,0.733333333,Degree of Religiousness
+czech,n0,Trust in Legal System,,trstlgl,5,0.98249459,3,2.52883349,1,1,0.8,Trust in Legal System
+czech,n1,Trust in Police,,trstplc,5,0.845055646,0,2.105396285,0.902737432,1,0.7,Trust in Police
+czech,n2,Trust in Politicians,,trstplt,6,0.861382276,4,2.532297966,0.810546937,1,0.733333333,Trust in Politicians
+czech,n3,Personal Responsibility (Climate),,ccrdprs,7,0.666859032,4,2.527635492,0.401935324,2,0.714285714,Personal Responsibility (Climate)
+czech,n4,Gov. Reduce Income Differences,,gincdif,5,0.45175645,0,2.147751371,0.193020412,2,0.7,Gov. Reduce Income Differences
+czech,n5,Left-Right Scale,,lrscale,5,0.390684055,6,2.570167284,0.172454401,2,0.8,Left-Right Scale
+czech,n6,Immigrants: Country Better/Worse,,imwbcnt,6,0.837082194,0,1.436245173,0.517848967,2,0.733333333,Immigrants: Country Better/Worse
+czech,n7,Degree of Religiousness,,rlgdgr,5,0.357550663,4,2.344747485,0.241328313,2,0.8,Degree of Religiousness
+france,n0,Trust in Legal System,,trstlgl,6,1.12174934,0,2.979303282,1,1,0.866666667,Trust in Legal System
+france,n1,Trust in Police,,trstplc,6,1.02012814,0,3.069572737,0.931046526,1,0.866666667,Trust in Police
+france,n2,Trust in Politicians,,trstplt,7,0.774140061,6,3.365335599,0.723569138,1,0.80952381,Trust in Politicians
+france,n3,Personal Responsibility (Climate),,ccrdprs,6,0.336622771,6,4.131518038,0.268940364,2,0.8,Personal Responsibility (Climate)
+france,n4,Gov. Reduce Income Differences,,gincdif,6,0.321461639,8,4.389575619,0.238274121,2,0.8,Gov. Reduce Income Differences
+france,n5,Left-Right Scale,,lrscale,6,0.915205116,0,1.908760716,0.652988064,2,0.8,Left-Right Scale
+france,n6,Immigrants: Country Better/Worse,,imwbcnt,6,0.834147767,0,1.825489039,0.656882856,2,0.8,Immigrants: Country Better/Worse
+france,n7,Degree of Religiousness,,rlgdgr,5,0.275439816,8,4.381300149,0.207057276,2,0.8,Degree of Religiousness
