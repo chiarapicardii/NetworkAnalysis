@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?><graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="r" attr.type="int" for="node" id="r"/>
+    <key attr.name="g" attr.type="int" for="node" id="g"/>
+    <key attr.name="b" attr.type="int" for="node" id="b"/>
+    <key attr.name="x" attr.type="float" for="node" id="x"/>
+    <key attr.name="y" attr.type="float" for="node" id="y"/>
+    <key attr.name="size" attr.type="float" for="node" id="size"/>
+    <key attr.name="degree" attr.type="int" for="node" id="degree"/>
+    <key attr.name="weighted_degree" attr.type="double" for="node" id="weighted_degree"/>
+    <key attr.name="betweenness" attr.type="int" for="node" id="betweenness"/>
+    <key attr.name="closeness" attr.type="double" for="node" id="closeness"/>
+    <key attr.name="eigenvector" attr.type="double" for="node" id="eigenvector"/>
+    <key attr.name="modularity_class" attr.type="int" for="node" id="modularity_class"/>
+    <key attr.name="clustering_coefficient" attr.type="double" for="node" id="clustering_coefficient"/>
+    <key attr.name="r" attr.type="double" for="edge" id="r"/>
+    <key attr.name="sign" attr.type="string" for="edge" id="sign"/>
+    <key attr.name="color" attr.type="string" for="edge" id="color"/>
+    <graph edgedefault="undirected">
+        <node id="trstlgl">
+            <data key="label">trstlgl</data>
+            <data key="degree">6</data>
+            <data key="weighted_degree">1.25956264896176</data>
+            <data key="betweenness">0</data>
+            <data key="closeness">1.46781022748029</data>
+            <data key="eigenvector">1.0</data>
+            <data key="modularity_class">1</data>
+            <data key="clustering_coefficient">0.8</data>
+            <data key="size">10.0</data>
+            <data key="r">0</data>
+            <data key="g">0</data>
+            <data key="b">0</data>
+            <data key="x">-108.30348</data>
+            <data key="y">-105.45283</data>
+        </node>
+        <node id="trstplc">
+            <data key="label">trstplc</data>
+            <data key="degree">7</data>
+            <data key="weighted_degree">1.15752884022918</data>
+            <data key="betweenness">0</data>
+            <data key="closeness">1.70025110606553</data>
+            <data key="eigenvector">0.867541687099694</data>
+            <data key="modularity_class">2</data>
+            <data key="clustering_coefficient">0.714285714285714</data>
+            <data key="size">10.0</data>
+            <data key="r">0</data>
+            <data key="g">0</data>
+            <data key="b">0</data>
+            <data key="x">241.04674</data>
+            <data key="y">-412.39688</data>
+        </node>
+        <node id="trstplt">
+            <data key="label">trstplt</data>
+            <data key="degree">6</data>
+            <data key="weighted_degree">0.820467271595512</data>
+            <data key="betweenness">0</data>
+            <data key="closeness">2.16697140597997</data>
+            <data key="eigenvector">0.718491767104173</data>
+            <data key="modularity_class">1</data>
+            <data key="clustering_coefficient">0.866666666666667</data>
+            <data key="size">10.0</data>
+            <data key="r">0</data>
+            <data key="g">0</data>
+            <data key="b">0</data>
+            <data key="x">109.14714</data>
+            <data key="y">412.36398</data>
+        </node>
+        <node id="trstsci">
+            <data key="label">trstsci</data>
+            <data key="degree">5</data>
+            <data key="weighted_degree">0.696763742804516</data>
+            <data key="betweenness">0</data>
+            <data key="closeness">1.37992431613287</data>
+            <data key="eigenvector">0.5802158329917</data>
+            <data key="modularity_class">2</data>
+            <data key="clustering_coefficient">0.8</data>
+            <data key="size">10.0</data>
+            <data key="r">0</data>
+            <data key="g">0</data>
+            <data key="b">0</data>
+            <data key="x">45.07054</data>
+            <data key="y">-85.767555</data>
+        </node>
+        <node id="ccrdprs">
+            <data key="label">ccrdprs</data>
+            <data key="degree">7</data>
+            <data key="weighted_degree">0.537543909182869</data>
+            <data key="betweenness">10</data>
+            <data key="closeness">3.03585353918861</data>
+            <data key="eigenvector">0.300623135571711</data>
+            <data key="modularity_class">3</data>
+            <data key="clustering_coefficient">0.761904761904762</data>
+            <data key="size">10.0</data>
+            <data key="r">0</data>
+            <data key="g">0</data>
+            <data key="b">0</data>
+            <data key="x">101.354965</data>
+            <data key="y">-53.60441</data>
+        </node>
+        <node id="gincdif">
+            <data key="label">gincdif</data>
+            <data key="degree">7</data>
+            <data key="weighted_degree">0.500898853734952</data>
+            <data key="betweenness">1</data>
+            <data key="closeness">2.5396097001101</data>
+            <data key="eigenvector">0.283964446761718</data>
+            <data key="modularity_class">3</data>
+            <data key="clustering_coefficient">0.714285714285714</data>
+            <data key="size">10.0</data>
+            <data key="r">0</data>
+            <data key="g">0</data>
+            <data key="b">0</data>
+            <data key="x">-360.7078</data>
+            <data key="y">331.86313</data>
+        </node>
+        <node id="lrscale">
+            <data key="label">lrscale</data>
+            <data key="degree">7</data>
+            <data key="weighted_degree">0.70646256320789</data>
+            <data key="betweenness">0</data>
+            <data key="closeness">1.89273907744254</data>
+            <data key="eigenvector">0.502406208676283</data>
+            <data key="modularity_class">1</data>
+            <data key="clustering_coefficient">0.809523809523809</data>
+            <data key="size">10.0</data>
+            <data key="r">0</data>
+            <data key="g">0</data>
+            <data key="b">0</data>
+            <data key="x">339.38013</data>
+            <data key="y">-119.39774</data>
+        </node>
+        <node id="imwbcnt">
+            <data key="label">imwbcnt</data>
+            <data key="degree">8</data>
+            <data key="weighted_degree">0.658810708265128</data>
+            <data key="betweenness">14</data>
+            <data key="closeness">3.19934821190959</data>
+            <data key="eigenvector">0.451183019018569</data>
+            <data key="modularity_class">1</data>
+            <data key="clustering_coefficient">0.75</data>
+            <data key="size">10.0</data>
+            <data key="r">0</data>
+            <data key="g">0</data>
+            <data key="b">0</data>
+            <data key="x">-113.00685</data>
+            <data key="y">-42.016273</data>
+        </node>
+        <node id="rlgdgr">
+            <data key="label">rlgdgr</data>
+            <data key="degree">5</data>
+            <data key="weighted_degree">0.279905513369824</data>
+            <data key="betweenness">12</data>
+            <data key="closeness">3.22781861890297</data>
+            <data key="eigenvector">0.213424679662808</data>
+            <data key="modularity_class">2</data>
+            <data key="clustering_coefficient">0.9</data>
+            <data key="size">10.0</data>
+            <data key="r">0</data>
+            <data key="g">0</data>
+            <data key="b">0</data>
+            <data key="x">-253.98137</data>
+            <data key="y">74.40859</data>
+        </node>
+        <edge id="635" source="trstlgl" target="trstplc">
+            <data key="weight">0.394903979319535</data>
+            <data key="r">0.394903979319535</data>
+            <data key="sign">positive</data>
+            <data key="color">#0000FF</data>
+        </edge>
+        <edge id="636" source="trstlgl" target="trstplt">
+            <data key="weight">0.447595671248289</data>
+            <data key="r">0.447595671248289</data>
+            <data key="sign">positive</data>
+            <data key="color">#0000FF</data>
+        </edge>
+        <edge id="637" source="trstlgl" target="trstsci">
+            <data key="weight">0.139264302817599</data>
+            <data key="r">0.139264302817599</data>
+            <data key="sign">positive</data>
+            <data key="color">#0000FF</data>
+        </edge>
+        <edge id="638" source="trstlgl" target="gincdif">
+            <data key="weight">0.0580587577404689</data>
+            <data key="r">0.0580587577404689</data>
+            <data key="sign">positive</data>
+            <data key="color">#0000FF</data>
+        </edge>
+        <edge id="639" source="trstlgl" target="lrscale">
+            <data key="weight">0.162268855406329</data>
+            <data key="r">-0.162268855406329</data>
+            <data key="sign">negative</data>
+            <data key="color">#FF0000</data>
+        </edge>
+        <edge id="640" source="trstlgl" target="imwbcnt">
+            <data key="weight">0.0574710824295432</data>
+            <data key="r">0.0574710824295432</data>
+            <data key="sign">positive</data>
+            <data key="color">#0000FF</data>
+        </edge>
+        <edge id="641" source="trstplc" target="trstplt">
+            <data key="weight">0.0397875213764584</data>
+            <data key="r">0.0397875213764584</data>
+            <data key="sign">positive</data>
+            <data key="color">#0000FF</data>
+        </edge>
+        <edge id="642" source="trstplc" target="trstsci">
+            <data key="weight">0.333488616366912</data>
+            <data key="r">0.333488616366912</data>
+            <data key="sign">positive</data>
+            <data key="color">#0000FF</data>
+        </edge>
+        <edge id="643" source="trstplc" target="ccrdprs">
+            <data key="weight">0.0736118499067666</data>
+            <data key="r">0.0736118499067666</data>
+            <data key="sign">positive</data>
+            <data key="color">#0000FF</data>
+        </edge>
+        <edge id="644" source="trstplc" target="lrscale">
+            <data key="weight">0.125092440288433</data>
+            <data key="r">0.125092440288433</data>
+            <data key="sign">positive</data>
+            <data key="color">#0000FF</data>
+        </edge>
+        <edge id="645" source="trstplc" target="imwbcnt">
+            <data key="weight">0.0470456636354161</data>
+            <data key="r">-0.0470456636354161</data>
+            <data key="sign">negative</data>
+            <data key="color">#FF0000</data>
+        </edge>
+        <edge id="646" source="trstplc" target="rlgdgr">
+            <data key="weight">0.143598769335655</data>
+            <data key="r">0.143598769335655</data>
+            <data key="sign">positive</data>
+            <data key="color">#0000FF</data>
+        </edge>
+        <edge id="647" source="trstplt" target="ccrdprs">
+            <data key="weight">0.0304494521643074</data>
+            <data key="r">0.0304494521643074</data>
+            <data key="sign">positive</data>
+            <data key="color">#0000FF</data>
+        </edge>
+        <edge id="648" source="trstplt" target="gincdif">
+            <data key="weight">0.0410500680642155</data>
+            <data key="r">-0.0410500680642155</data>
+            <data key="sign">negative</data>
+            <data key="color">#FF0000</data>
+        </edge>
+        <edge id="649" source="trstplt" target="lrscale">
+            <data key="weight">0.0659087682556564</data>
+            <data key="r">0.0659087682556564</data>
+            <data key="sign">positive</data>
+            <data key="color">#0000FF</data>
+        </edge>
+        <edge id="650" source="trstplt" target="imwbcnt">
+            <data key="weight">0.195675790486585</data>
+            <data key="r">0.195675790486585</data>
+            <data key="sign">positive</data>
+            <data key="color">#0000FF</data>
+        </edge>
+        <edge id="651" source="trstsci" target="ccrdprs">
+            <data key="weight">0.093952026783572</data>
+            <data key="r">0.093952026783572</data>
+            <data key="sign">positive</data>
+            <data key="color">#0000FF</data>
+        </edge>
+        <edge id="652" source="trstsci" target="gincdif">
+            <data key="weight">0.067783218136984</data>
+            <data key="r">0.067783218136984</data>
+            <data key="sign">positive</data>
+            <data key="color">#0000FF</data>
+        </edge>
+        <edge id="653" source="trstsci" target="imwbcnt">
+            <data key="weight">0.0622755786994486</data>
+            <data key="r">0.0622755786994486</data>
+            <data key="sign">positive</data>
+            <data key="color">#0000FF</data>
+        </edge>
+        <edge id="654" source="ccrdprs" target="gincdif">
+            <data key="weight">0.192103994742263</data>
+            <data key="r">0.192103994742263</data>
+            <data key="sign">positive</data>
+            <data key="color">#0000FF</data>
+        </edge>
+        <edge id="655" source="ccrdprs" target="lrscale">
+            <data key="weight">0.0284197409335785</data>
+            <data key="r">-0.0284197409335785</data>
+            <data key="sign">negative</data>
+            <data key="color">#FF0000</data>
+        </edge>
+        <edge id="656" source="ccrdprs" target="imwbcnt">
+            <data key="weight">0.112476876837704</data>
+            <data key="r">0.112476876837704</data>
+            <data key="sign">positive</data>
+            <data key="color">#0000FF</data>
+        </edge>
+        <edge id="657" source="ccrdprs" target="rlgdgr">
+            <data key="weight">0.00652996781467776</data>
+            <data key="r">0.00652996781467776</data>
+            <data key="sign">positive</data>
+            <data key="color">#0000FF</data>
+        </edge>
+        <edge id="658" source="gincdif" target="lrscale">
+            <data key="weight">0.0860138688095563</data>
+            <data key="r">-0.0860138688095563</data>
+            <data key="sign">negative</data>
+            <data key="color">#FF0000</data>
+        </edge>
+        <edge id="659" source="gincdif" target="imwbcnt">
+            <data key="weight">0.0293229295614881</data>
+            <data key="r">0.0293229295614881</data>
+            <data key="sign">positive</data>
+            <data key="color">#0000FF</data>
+        </edge>
+        <edge id="660" source="gincdif" target="rlgdgr">
+            <data key="weight">0.0265660166799759</data>
+            <data key="r">0.0265660166799759</data>
+            <data key="sign">positive</data>
+            <data key="color">#0000FF</data>
+        </edge>
+        <edge id="661" source="lrscale" target="imwbcnt">
+            <data key="weight">0.145045458294883</data>
+            <data key="r">-0.145045458294883</data>
+            <data key="sign">negative</data>
+            <data key="color">#FF0000</data>
+        </edge>
+        <edge id="662" source="lrscale" target="rlgdgr">
+            <data key="weight">0.093713431219455</data>
+            <data key="r">0.093713431219455</data>
+            <data key="sign">positive</data>
+            <data key="color">#0000FF</data>
+        </edge>
+        <edge id="663" source="imwbcnt" target="rlgdgr">
+            <data key="weight">0.00949732832006069</data>
+            <data key="r">-0.00949732832006069</data>
+            <data key="sign">negative</data>
+            <data key="color">#FF0000</data>
+        </edge>
+    </graph>
+</graphml>
